@@ -3,7 +3,7 @@
 > Mount or unmount SteamOS filesystem partitions.
 > More information: <https://gitlab.com/users/evlaV/projects>.
 
-- Mount all relevant partitions from a device to a target directory:
+- Mount all necessary partitions from a device to a target directory:
 
 `sudo mount.steamos {{/dev/sdX}} {{/mnt}}`
 
