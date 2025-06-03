@@ -3,7 +3,7 @@
 > Complete a SteamOS installation by setting up bootloaders and applying system updates.
 > More information: <https://gitlab.com/users/evlaV/projects>.
 
-- Finalize the installation with default behavior:
+- Finalize the installation:
 
 `sudo steamos-finalize-install`
 
@@ -19,6 +19,6 @@
 
 `sudo steamos-finalize-install --roothash {{hash}}`
 
-- Force migration steps outside of a chroot environment:
+- Force system migration steps regardless of environment:
 
 `sudo steamos-finalize-install --force`
